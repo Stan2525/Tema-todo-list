@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <script type="module" src="script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="flex">
+            <div class="card">
+                <div class="margin-left">   
+                    <div class="text-1 title">
+                        <p> To Do List </p>       
+                    </div>
+                    <div class="text-1 time-period">
+                        <p> Today! </p>
+                    </div>
+                    <div class="day">
+                        <p id="idk"> Monday, 12th May </p>
+                    </div>  
+                    
+                    <div>
+                        <form id='buttonWithText'>
+                            <div id='slider' class='collapsed'>
+                              <input type='button' id='toggle' value='Add new task'>
+                              <input type='text' id='input' tabindex='-1' placeholder='New task...' size=10>
+                              <input type='submit' id='ok' tabindex='-1' value='Add'>
+                            </div>
+                        </form>
+                    </div>
+                    <ul id="list" class="list">
+                
+                    </ul>
+                    <!-- <button id="button-2"> + </button> -->
+                    <!-- <input id="lol" type="text" placeholder="Filtru..">  -->
+                </div>
+            </div>
+            <div id="search-box">
+                <input class="filter-box" id="filter" type="text" placeholder="Search task...">
+                <button class="filter-btn"> Adauga! </button>
+            </div>
+           
+        </div>
+        
+
+    </body>
+</html>
